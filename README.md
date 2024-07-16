@@ -1,56 +1,50 @@
-# Video Games Market Analysis
-ITC 6460 - Cloud Analytics - Northeastern University  
-Group: Husky 2  
-Contributors: Katherine LaConte, Likhitha Varakala, Manmitha Pantangi, Shivam Sinha
+# Leveraging Sales Analysis and Predictive Modeling
+ALY6040 - Master of Professional Studies in Analytics  
+College of Professional Studies, Northeastern University  
+Instructor: Prof Kasun Samarasinghe  
+Date: May 30, 2023
 
-This repository contains all resources and documentation for our final project on Video Games Market Analysis. Utilizing large-scale video game sales datasets, we've leveraged a range of AWS services to conduct comprehensive data cleaning, analysis, and predictive modeling.
+## Contributors
+- Shah Dhairyav Jatin
+- Likhitha Varakala
+- Manmitha Pantangi
+
+This repository contains all resources and documentation for our final project on enhancing online retail performance through advanced data analytics. Using a comprehensive dataset of U.S. online sales, we've employed rigorous data cleaning, exploratory analysis, and predictive modeling techniques to derive actionable insights.
 
 ## Project Overview
 
-The project aims to provide an analytical perspective on the video game industry by examining sales trends, consumer preferences, and market dynamics. Through meticulous data cleaning and advanced data analytics performed in the AWS cloud environment, we've developed a holistic view of the industry's evolution over time.
+The project seeks to transform retail strategy by analyzing consumer purchasing behaviors and market trends. Using data analytics within a structured framework, we've developed a deep understanding of the dynamics shaping online retail markets, enabling strategic decision-making based on empirical evidence.
 
-## Data Sources
+## Data Source
 
-- `game_sales_data.csv`
-- `vgsales.csv`
+- `online_sales_data.csv`
 
-These datasets include information on game titles, platforms, release years, genres, and sales figures across multiple regions.
+This dataset includes detailed records of online transactions across various states, encompassing product details, customer demographics, and sales performance.
 
-## AWS Services Used
+## Technologies Used
 
-- **AWS S3**: Centralized data storage ensuring durability and security.
-- **AWS IAM**: Managed secure access to AWS resources.
-- **AWS Glue**: Automated data cataloging and preparation.
-- **Amazon SageMaker**: Developed and trained machine learning models for sales prediction.
-- **AWS QuickSight**: Created interactive dashboards and visualizations for data reporting.
+- **Python**: For data cleaning, processing, and modeling.
+- **Tableau**: For creating interactive dashboards and visualizations.
+- **Scikit-Learn and XGBoost**: For predictive modeling.
 
 ## Key Components
 
-- **Data Cleaning**: Standardized and merged datasets to create a unified source for analysis. Techniques included removing duplicates, imputing missing values, and converting data types.
-- **Data Analysis and Querying**: Utilized AWS Athena for executing complex SQL queries to uncover insights into genre popularity, critic scores, and regional sales performance.
+- **Data Preprocessing**: Involved cleaning data, handling missing values, and standardizing formats for analysis readiness.
+- **Exploratory Data Analysis (EDA)**: Utilized statistical and visual analysis techniques to understand underlying patterns and trends.
 - **Predictive Modeling**:
-  - **Preprocessing**: Handled missing data, encoded categorical variables, and normalized features.
-  - **Model Architecture**: Designed a neural network for sales prediction with detailed architecture including input, hidden, and output layers.
-  - **Model Training and Evaluation**: Trained the model using historical sales data, evaluated with mean squared error.
-- **Visualization and Dashboard**: Developed comprehensive QuickSight dashboards displaying critical metrics such as sales trends, top-performing games, and genre analysis.
+  - **Model Selection**: Evaluated various models like Random Forest and XGBoost based on their predictive performance.
+  - **Model Training and Validation**: Employed cross-validation techniques to ensure model robustness and generalizability.
+- **Visualization and Reporting**: Developed insightful dashboards in Tableau to present findings and support decision-making.
 
 ## Results
 
-The analysis revealed significant insights such as:
-- "Super Mario Bros." as a top-selling game.
-- Trends in game preferences across different regions.
-- The impact of critical acclaim on sales.
+Key insights include:
+- Identification of high-demand product categories.
+- Understanding seasonal impact on sales.
+- Recommendations for inventory and pricing strategies based on predictive outcomes.
 
-These insights assist stakeholders in making informed decisions and strategizing based on evolving market trends.
+These insights enable retailers to fine-tune their strategies to better meet market demands and customer preferences.
 
 ## Conclusion
 
-Our project demonstrates the effective use of cloud computing for handling and analyzing large-scale data, providing deep insights into the dynamic video game market. The findings from this project not only reflect past and present market scenarios but also help predict future trends.
-
-## How to Contribute
-
-Interested in contributing? Please read `CONTRIBUTING.md` for the process of submitting changes to the project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project showcases the power of integrating advanced data analytics in retail decision-making processes. Through our comprehensive analysis, we provided a roadmap for enhancing retail strategies by leveraging predictive insights to anticipate market trends and consumer needs.
