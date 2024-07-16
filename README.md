@@ -4,10 +4,6 @@ College of Professional Studies, Northeastern University
 Instructor: Prof Kasun Samarasinghe  
 Date: May 30, 2023
 
-## Contributors
-- Shah Dhairyav Jatin
-- Likhitha Varakala
-- Manmitha Pantangi
 
 This repository contains all resources and documentation for our final project on enhancing online retail performance through advanced data analytics. Using a comprehensive dataset of U.S. online sales, we've employed rigorous data cleaning, exploratory analysis, and predictive modeling techniques to derive actionable insights.
 
